@@ -1,2 +1,5 @@
 *.json
 /test
+.env
+*.db
+*\__pycache__

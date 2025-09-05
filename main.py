@@ -1,5 +1,6 @@
-from app.console_handler import start_console
+from src.bot.bot import main
+import asyncio
 
 
-if __name__ == "__main__":
-    start_console()
+if __name__ == '__main__':
+    asyncio.run(main())

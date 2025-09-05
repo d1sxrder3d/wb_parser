@@ -1,4 +1,4 @@
-from .product_info import get_product_info
+from ..parser import get_product_info
 import json
 
 

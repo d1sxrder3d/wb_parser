@@ -1,4 +1,4 @@
-from .product_info import get_product_info
+from ..parser import get_product_info
 from .json_writer import write_json
 
 console_help = """
